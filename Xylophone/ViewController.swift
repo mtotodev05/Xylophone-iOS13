@@ -14,8 +14,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
-
+    @IBAction func onCKeyPressed(_ sender: UIButton) {
+        print("I was pressed")
+    }
     
-
 }
 
